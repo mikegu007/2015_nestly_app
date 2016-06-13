@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="T7Z-fY-NON" customClass="KeywordTableCell" customModule="SocialListeningApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T7Z-fY-NON" id="bFp-ps-sUL">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="keyword" translatesAutoresizingMaskIntoConstraints="NO" id="2e1-rR-1AF" userLabel="Image View1">
+                        <rect key="frame" x="13" y="4.5" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="ITL-gv-ZAK"/>
+                            <constraint firstAttribute="width" constant="35" id="ied-Ah-fN4"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="keywordarr" translatesAutoresizingMaskIntoConstraints="NO" id="ZGh-x4-Utt" userLabel="Image View2">
+                        <rect key="frame" x="299" y="14" width="8" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="RD0-H6-cml"/>
+                            <constraint firstAttribute="height" constant="15" id="xxD-mj-Exx"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fiF-Sn-hXM">
+                        <rect key="frame" x="58" y="8" width="241" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2e1-rR-1AF" firstAttribute="centerY" secondItem="bFp-ps-sUL" secondAttribute="centerY" id="8xy-s5-5tG"/>
+                    <constraint firstItem="2e1-rR-1AF" firstAttribute="leading" secondItem="bFp-ps-sUL" secondAttribute="leadingMargin" constant="5" id="B0T-CA-Omc"/>
+                    <constraint firstItem="fiF-Sn-hXM" firstAttribute="leading" secondItem="2e1-rR-1AF" secondAttribute="trailing" constant="10" id="EhU-9X-mu6"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="fiF-Sn-hXM" secondAttribute="bottom" id="Sqw-7U-9Fs"/>
+                    <constraint firstItem="ZGh-x4-Utt" firstAttribute="leading" secondItem="fiF-Sn-hXM" secondAttribute="trailing" id="emj-R7-Oes"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ZGh-x4-Utt" secondAttribute="trailing" constant="5" id="gqQ-S8-H3h"/>
+                    <constraint firstItem="ZGh-x4-Utt" firstAttribute="centerY" secondItem="bFp-ps-sUL" secondAttribute="centerY" id="joU-ih-dBs"/>
+                    <constraint firstItem="fiF-Sn-hXM" firstAttribute="top" secondItem="bFp-ps-sUL" secondAttribute="topMargin" id="uTe-zq-GKB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="keyword" destination="fiF-Sn-hXM" id="A0d-MT-uxt"/>
+                <outlet property="keywordImg" destination="2e1-rR-1AF" id="tXX-zt-5AO"/>
+            </connections>
+            <point key="canvasLocation" x="234" y="-7"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="keyword" width="29" height="29"/>
+        <image name="keywordarr" width="5" height="10"/>
+    </resources>
+</document>

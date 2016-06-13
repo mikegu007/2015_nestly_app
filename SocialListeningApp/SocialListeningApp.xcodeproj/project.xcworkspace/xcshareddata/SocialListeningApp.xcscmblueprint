@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "67620B5EFA902936DF04070AF595B76AB0333747+++AF6A59B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "67620B5EFA902936DF04070AF595B76AB0333747+++AF6A59B" : {
+
+    },
+    "67620B5EFA902936DF04070AF595B76AB0333747+++DD3835C" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "67620B5EFA902936DF04070AF595B76AB0333747+++AF6A59B" : 0,
+    "67620B5EFA902936DF04070AF595B76AB0333747+++DD3835C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2420F5A2-F9AB-41CB-83C4-67F94F0F5142",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "67620B5EFA902936DF04070AF595B76AB0333747+++AF6A59B" : "nestly\/APP-IOS\/Source\/trunk\/SocialListeningAppSource\/SocialListeningApp\/Alamofire\/",
+    "67620B5EFA902936DF04070AF595B76AB0333747+++DD3835C" : "nestly\/APP-IOS\/Source\/trunk\/SocialListeningAppSource\/SocialListeningApp\/Alamofire\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SocialListeningApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "APP-IOS\/Source\/trunk\/SocialListeningAppSource\/SocialListeningApp\/SocialListeningApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Alamofire\/Alamofire.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67620B5EFA902936DF04070AF595B76AB0333747+++AF6A59B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.8\/svn\/APP",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67620B5EFA902936DF04070AF595B76AB0333747+++DD3835C"
+    }
+  ]
+}
